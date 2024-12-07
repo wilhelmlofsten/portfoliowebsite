@@ -34,7 +34,7 @@ const Navbar = () => {
 
   return (
     <div className="m-0 p-0">
-      <nav className="bg-gray-800 p-3 h-20 mt-0 w-full fixed top-0 z-50 flex justify-between items-center">
+      <nav className="bg-gray-700 p-3 h-20 mt-0 w-full fixed top-0 z-50 flex justify-between items-center">
         <Link href="/" legacyBehavior>
           <a className="text-white text-lg ml-4 hover:text-gray-300">
             Wilhelm Löfsten Oscarsson
