@@ -101,7 +101,7 @@ export default function ContactPage() {
                       overflow-hidden border-4 border-gray-600 flex-shrink-0"
                   >
                     <Image
-                      src="/profilePicture.jpg"
+                      src="./profilepicture.jpg"
                       alt="Profile Picture"
                       width={175}
                       height={175}

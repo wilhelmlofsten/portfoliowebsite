@@ -4,6 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true, // disable Image Optimization for static exports
   },
+  assetPrefix: "/portfoliowebsite",
+  basePath: "/portfoliowebsite",
 };
 
 export default nextConfig;
