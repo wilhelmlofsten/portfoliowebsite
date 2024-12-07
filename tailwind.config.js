@@ -8,8 +8,9 @@ module.exports = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/.components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/ui/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/contact/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/projects/**/*.{js,ts,jsx,tsx,mdx}",
 
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
