@@ -5,6 +5,7 @@ import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "../../components/ui/3d-card";
 import { WavyBackground } from "../../components/ui/wavy-background";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { prefix } from "../../lib/prefix"; // Import prefix
 
 export default function ContactPage() {
   // fixes the overflow issue when the page is loaded
@@ -101,7 +102,7 @@ export default function ContactPage() {
                       overflow-hidden border-4 border-gray-600 flex-shrink-0"
                   >
                     <Image
-                      src="/portfoliowebsite/profilepicture.jpg"
+                      src={`${prefix}/profilepicture.jpg`}
                       alt="Profile Picture"
                       width={175}
                       height={175}
