@@ -36,7 +36,8 @@ const Navbar = () => {
     <div className="m-0 p-0">
       <nav className="bg-gray-700 p-3 h-20 mt-0 w-full fixed top-0 z-50 flex justify-between items-center">
         <Link href="/" legacyBehavior>
-          <a className="text-white text-lg ml-4 hover:text-gray-300">
+          <a className="bg-gradient-to-r from-blue-300 to-blue-500 text-transparent bg-clip-text text-3xl ml-4 hover:from-blue-400 hover:to-blue-500 font-bold">
+            {" "}
             Wilhelm Löfsten Oscarsson
           </a>
         </Link>
