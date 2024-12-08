@@ -1,6 +1,3 @@
-"use client";
-
-import { useEffect } from "react";
 import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "../../components/ui/3d-card";
 import { WavyBackground } from "../../components/ui/wavy-background";
@@ -8,16 +5,8 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { prefix } from "../../lib/prefix"; // Import prefix
 
 export default function ContactPage() {
-  // fixes the overflow issue when the page is loaded
-  useEffect(() => {
-    document.body.style.overflow = "hidden";
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, []);
-
   return (
-    <div className="w-full h-screen overflow-hidden">
+    <div className="w-full h-screen overflow-hidden bg-black">
       <WavyBackground className="max-w-6xl mx-auto pb-20 w-full">
         <div className="text-center text-white mb-8">
           <h1 className="text-4xl md:text-6xl font-bold">Contact Me!</h1>
