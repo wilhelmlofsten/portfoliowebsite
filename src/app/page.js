@@ -3,6 +3,9 @@ import { AuroraBackground } from "../components/ui/aurora-background";
 import { TypewriterEffectSmooth } from "../components/ui/typewriter-effect";
 import Link from "next/link";
 import Image from "next/image";
+import { HoverEffect } from "../components/ui/card-hover-effect";
+import { FaCogs, FaCode, FaUserTie } from "react-icons/fa";
+
 export default function Home() {
   const words = [
     { text: "I", className: "text-white" },
@@ -10,6 +13,27 @@ export default function Home() {
     { text: "Wilhelm", className: "text-blue-500" },
     { text: "Löfsten", className: "text-blue-500" },
     { text: "Oscarsson", className: "text-blue-500" },
+  ];
+
+  const projects = [
+    {
+      title: "Large Scale Software Engineering",
+      description:
+        "System Architecture, Design Patterns, Software Testing, Open Source Development and CI/CD.",
+      icon: <FaCogs size={30} className="text-blue-500" />,
+    },
+    {
+      title: "Programming Skills",
+      description:
+        "React.js, Next.js, Python, Java, Javascript, HTML,CSS, C#, C,C++, SQL, R, Matlab and more!",
+      icon: <FaCode size={30} className="text-red-500" />,
+    },
+    {
+      title: "Soft Skills",
+      description:
+        "Leadership, Project Management, Communicative, Problem-Solver, Stress-Resistant and Driven.",
+      icon: <FaUserTie size={30} className="text-green-500" />,
+    },
   ];
 
   return (
@@ -74,6 +98,9 @@ export default function Home() {
               />
             </div>
           </div>
+        </div>
+        <div className="mt-16">
+          <HoverEffect items={projects} />
         </div>
       </div>
     </div>
