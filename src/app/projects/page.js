@@ -50,7 +50,8 @@ export default function ProjectPage() {
               <motion.div
                 layoutId={`card-${active.title}-${id}`}
                 ref={ref}
-                className="w-full max-w-[500px] h-full md:h-fit md:max-h-[90%] flex flex-col bg-gray-700 dark:bg-neutral-900 sm:rounded-3xl overflow-hidden"
+                className="w-full max-w-[500px] h-full md:h-fit md:max-h-[90%] flex flex-col bg-gray-700 dark:bg-neutral-900 sm:rounded-3xl overflow-auto"
+                style={{ zIndex: 110, marginTop: "6rem" }}
               >
                 <motion.div layoutId={`image-${active.title}-${id}`}>
                   <Image
