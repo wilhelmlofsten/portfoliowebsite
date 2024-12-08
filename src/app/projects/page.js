@@ -151,7 +151,7 @@ export default function ProjectPage() {
 
 const cards = [
   {
-    description: "A social forum combined with the stock market",
+    description: "A social stock market forum",
     title: "StockInsirator ",
     src: "https://gitlab.liu.se/willo509/tddd27_2024_stockinspirator/-/raw/main/searchStockPage.png",
     ctaText: "Visit the project",
@@ -185,10 +185,20 @@ const cards = [
   {
     description: "This website!",
     title: "Portfolio Website",
-    src: "https://gitlab.liu.se/willo509/tddd27_2024_stockinspirator/-/raw/main/searchStockPage.png",
-    ctaText: "Visit",
+    src: "https://scontent.fbma4-1.fna.fbcdn.net/v/t39.30808-6/459566304_2004759299944374_9115011523230486269_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=So9rr63cXXAQ7kNvgGO5TN_&_nc_zt=23&_nc_ht=scontent.fbma4-1.fna&_nc_gid=AiQIdMQUqboOY7RV-gcqFLV&oh=00_AYD-wh4KbvrV1QJbCcsvK-M-MCrAqE48r_FQm4gL80m7dg&oe=675B2A74",
+    ctaText: "Visit the project",
     ctaLink: "https://github.com/wilhelmlofsten/portfoliowebsite",
-    content: () => <p>Some detailed description about Babbu Maan.</p>,
+    content: () => (
+      <p>
+        {" "}
+        This portfolio website showcases my projects, contact information and
+        information about me. Built with Next.js, the site leverages server-side
+        rendering for fast load times and is designed with TailwindCSS.
+        Furthermore, AceternityUI components have been used to elevate the
+        website design. The site is hosted on Github Pages and features CI/CD
+        for seamless deployment.
+      </p>
+    ),
     tags: [
       "Fullstack",
       "Next.js",
@@ -200,21 +210,89 @@ const cards = [
     ],
   },
   {
-    description: "Metallica",
-    title: "For Whom The Bell Tolls",
-    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaAKHFBCeaYsNP5YkIuS4pOzf6CakpWupPzg&s",
-    ctaText: "Visit",
-    ctaLink: "https://github.com/wilhelmlofsten",
-    content: () => <p>Some detailed description about Metallica.</p>,
-    tags: ["Rock", "Band"],
+    description: "LINK- Career days",
+    title: "Project Manager",
+    src: "https://media.licdn.com/dms/image/v2/D4D22AQHXhxQl3TREDQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733473035590?e=1736380800&v=beta&t=kfgMDl8fyKZigtnZhy4JNjegQObuBSLrEtqWKD52AFk",
+    ctaText: "Learn more about LINK-Dagarna",
+    ctaLink: "https://linkdagarna.se/committee",
+    content: () => (
+      <p>
+        Having participated in LINK Career Days 2022 as a Company Responsible,
+        where I managed relationships with participating companies and ensured
+        their smooth involvement in the event, I was inspired to take on a
+        larger challenge by stepping into the role of Project Manager for LINK
+        Career Fair 2024. <br /> <br />
+        As Project Manager, I led a team of 30 members, each with distinct roles
+        across various subgroups, fostering effective collaboration and ensuring
+        all aspects of the fair were planned and executed. My responsibilities
+        included overseeing event logistics, securing sponsorships, and managing
+        communications with companies to enhance their engagement and
+        satisfaction. I also worked to create valuable networking opportunities,
+        connecting students with industry professionals to bridge the gap
+        between academia and the workplace. This role allowed me to make a
+        meaningful impact on the largest IT job fairs at LiU, demonstrating my
+        ability to lead, coordinate complex projects, and deliver successful
+        outcomes.
+      </p>
+    ),
+    tags: [
+      "Leadership",
+      "Project Management",
+      "Networking",
+      "Teamwork",
+      "Communication",
+    ],
   },
   {
-    description: "Lord Himesh",
-    title: "Aap Ka Suroor",
-    src: "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*",
-    ctaText: "Visit",
-    ctaLink: "https://github.com/wilhelmlofsten",
-    content: () => <p>Some detailed description about Himesh.</p>,
-    tags: ["Bollywood", "Singer"],
+    description: "Your fellow travel chatbot!",
+    title: "SafetySam",
+    src: "https://gitlab.liu.se/willo509/tnm114project/-/raw/main/conversationExample.png?ref_type=heads",
+    ctaText: "Visit the project",
+    ctaLink: "https://gitlab.liu.se/willo509/tddd27_2024_stockinspirator",
+    content: () => (
+      <p>
+        Me and two classmates developed SafetySam, a travel chatbot for the
+        course TNM114, leveraging Retrieval-Augmented Generation (RAG) with the
+        Llama text model to provide reliable travel advice. Integrated a
+        React.js frontend, Flask server, and Python-based backend to deliver
+        accurate, contextually relevant information from a preprocessed dataset.
+        The project showcases the practical application of modern AI
+        technologies in enhancing user-focused solutions.
+        <br />
+        <a
+          href="https://gitlab.liu.se/willo509/tnm114project/-/blob/main/TNM114_-_SafetySam.pdf?ref_type=heads"
+          style={{ color: "#0096FF" }}
+        >
+          Report of the project can be found here
+        </a>
+        .
+      </p>
+    ),
+    tags: [
+      "Chatbot",
+      "RAG",
+      "Llama model",
+      "React",
+      "Flask",
+      "Python",
+      "MUI",
+      "AI",
+    ],
+  },
+  {
+    description: "A JavaFX Login Authenticator",
+    title: "Cookie Contributor",
+    src: "https://github.com/wilhelmlofsten/loginAppl_JAVAFX_wMySQL/blob/main/readmeIMG/CMLogo.png?raw=true",
+    ctaText: "Visit the project",
+    ctaLink:
+      "https://github.com/wilhelmlofsten/loginAppl_JAVAFX_wMySQL?tab=readme-ov-file",
+    content: () => (
+      <p>
+        JavaFX application with database connectivity. In this JavaFX
+        application project, I made an account registrator where we store user
+        registration form data into MySQL database using JDBC API.
+      </p>
+    ),
+    tags: ["Java", "JavaFX", "MySQL", "JDBC", "FXML", "Login Authenticator"],
   },
 ];
