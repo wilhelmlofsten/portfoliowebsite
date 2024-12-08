@@ -21,7 +21,7 @@ export default function Home() {
             <p className="text-white text-4xl sm:text-5xl">Hello!</p>
             <TypewriterEffectSmooth words={words} />
             <p className="text-white text-lg sm:text-xl text-center">
-              Dedicated to Continuous Learning and Development
+              Junior Full-Stack Developer
             </p>
             <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 mt-4">
               <Link href="/projects" passHref>
