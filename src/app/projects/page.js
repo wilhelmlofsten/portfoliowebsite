@@ -186,7 +186,7 @@ const cards = [
   {
     description: "This website!",
     title: "Portfolio Website",
-    src: "https://scontent.fbma4-1.fna.fbcdn.net/v/t39.30808-6/459566304_2004759299944374_9115011523230486269_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=So9rr63cXXAQ7kNvgGO5TN_&_nc_zt=23&_nc_ht=scontent.fbma4-1.fna&_nc_gid=AiQIdMQUqboOY7RV-gcqFLV&oh=00_AYD-wh4KbvrV1QJbCcsvK-M-MCrAqE48r_FQm4gL80m7dg&oe=675B2A74",
+    src: "https://media.licdn.com/dms/image/v2/D4D2DAQGpIk2lkH8zEQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733688222848?e=1734296400&v=beta&t=CbJR-ZAiQoPwxilOdrCQfxWWfa8URCBAuJ-lm5Zy34Q",
     ctaText: "Visit the project",
     ctaLink: "https://github.com/wilhelmlofsten/portfoliowebsite",
     content: () => (
@@ -201,7 +201,6 @@ const cards = [
       </p>
     ),
     tags: [
-      "Fullstack",
       "Next.js",
       "TailwindCSS",
       "React",
