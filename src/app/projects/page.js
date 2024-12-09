@@ -248,7 +248,7 @@ const cards = [
     title: "SafetySam",
     src: "https://gitlab.liu.se/willo509/tnm114project/-/raw/main/conversationExample.png?ref_type=heads",
     ctaText: "Visit the project",
-    ctaLink: "https://gitlab.liu.se/willo509/tddd27_2024_stockinspirator",
+    ctaLink: "https://gitlab.liu.se/willo509/tnm114project",
     content: () => (
       <p>
         Me and two classmates developed SafetySam, a travel chatbot for the
