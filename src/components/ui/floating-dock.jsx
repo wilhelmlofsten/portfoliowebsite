@@ -21,60 +21,22 @@ export const FloatingDock = ({ items, desktopClassName, mobileClassName }) => {
 };
 
 const FloatingDockMobile = ({ items, className }) => {
-  const [open, setOpen] = useState(false);
+  // filter to show only "Projects" and "Contact" on mobile
+  const mobileItems = items.filter(
+    (item) => item.title === "Projects" || item.title === "Contact"
+  );
+
   return (
-    <div className={cn("relative block md:hidden", className)}>
-      <AnimatePresence>
-        {open && (
-          <motion.div
-            layoutId="nav"
-            className="absolute bottom-full mb-2 inset-x-0 flex flex-col gap-4"
-          >
-            {items.map((item, idx) => (
-              <motion.div
-                key={item.title}
-                initial={{ opacity: 0, y: 10 }}
-                animate={{
-                  opacity: 1,
-                  y: 0,
-                }}
-                exit={{
-                  opacity: 0,
-                  y: 10,
-                  transition: {
-                    delay: idx * 0.05,
-                  },
-                }}
-                transition={{ delay: (items.length - 1 - idx) * 0.05 }}
-              >
-                <Link
-                  href={item.href}
-                  key={item.title}
-                  className={`h-10 w-10 rounded-full ${
-                    item.text
-                      ? "mb-6 bg-transparent"
-                      : "bg-gray-50 dark:bg-neutral-900 mb-2"
-                  } flex items-center justify-center`}
-                >
-                  {item.text ? (
-                    <span className="text-white hover:text-gray-300 text-lg">
-                      {item.title}
-                    </span>
-                  ) : (
-                    <div className="h-4 w-4">{item.icon}</div>
-                  )}
-                </Link>
-              </motion.div>
-            ))}
-          </motion.div>
-        )}
-      </AnimatePresence>
-      <button
-        onClick={() => setOpen(!open)}
-        className="h-10 w-10 rounded-full bg-gray-50 dark:bg-neutral-800 flex items-center justify-center"
-      >
-        <IconLayoutNavbarCollapse className="h-5 w-5 text-neutral-500 dark:text-neutral-400" />
-      </button>
+    <div className={cn("flex md:hidden space-x-6", className)}>
+      {mobileItems.map((item) => (
+        <Link
+          key={item.title}
+          href={item.href}
+          className="text-white hover:text-gray-300 text-lg"
+        >
+          {item.title}
+        </Link>
+      ))}
     </div>
   );
 };
