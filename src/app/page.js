@@ -90,7 +90,7 @@ export default function Home() {
           <div className="flex-shrink-0 flex justify-center items-center">
             <div className="w-[250px] h-[250px] bg-gray-700 rounded-full overflow-hidden border-4 border-gray-600 shadow-lg">
               <Image
-                src="https://scontent.fbma4-1.fna.fbcdn.net/v/t39.30808-6/459566304_2004759299944374_9115011523230486269_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=So9rr63cXXAQ7kNvgGO5TN_&_nc_zt=23&_nc_ht=scontent.fbma4-1.fna&_nc_gid=AiQIdMQUqboOY7RV-gcqFLV&oh=00_AYD-wh4KbvrV1QJbCcsvK-M-MCrAqE48r_FQm4gL80m7dg&oe=675B2A74"
+                src="https://media.licdn.com/dms/image/v2/D5603AQFPVJUEPLMMMw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726408270051?e=1740009600&v=beta&t=NmAS_P8vCMhouKkVomNEnyMfAhENv4RRJvVJw5XT9rI"
                 alt="Profile Picture"
                 width={250}
                 height={250}
