@@ -10,3 +10,10 @@ This portfolio website showcases my projects, contact information, and informati
 - AceternityUI
 - GitHub Pages
 - CI/CD
+
+## Visuals of the application
+
+![Screenshot](homePage.png)
+![Screenshot](aboutMe.png)
+![Screenshot](projectPage.png)
+![Screenshot](contactPage.png)
