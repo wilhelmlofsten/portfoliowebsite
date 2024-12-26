@@ -186,7 +186,7 @@ const cards = [
   {
     description: "This website!",
     title: "Portfolio Website",
-    src: "https://media.licdn.com/dms/image/v2/D4D2DAQHIjkWg-JOmzA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1733688442971?e=1735034400&v=beta&t=yFjRh8rbtSm4DvRj4LcAWGXxrrnWviZYY3FWPkstewE",
+    src: "https://github.com/wilhelmlofsten/portfoliowebsite/raw/main/aboutMe.png",
     ctaText: "Visit the project",
     ctaLink: "https://github.com/wilhelmlofsten/portfoliowebsite",
     content: () => (
