@@ -212,7 +212,7 @@ const cards = [
   {
     description: "LINK- Career days",
     title: "Project Manager",
-    src: "https://media.licdn.com/dms/image/v2/D4D22AQHXhxQl3TREDQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733473035590?e=1739404800&v=beta&t=-yQ5wA2lCLu7gfSEw3djWVccva1JJcoYSX4f5ML9yUA",
+    src: "https://github.com/wilhelmlofsten/portfoliowebsite/blob/main/public/linkdagarna.jpg?raw=true",
     ctaText: "Learn more about LINK-Dagarna",
     ctaLink: "https://linkdagarna.se/committee",
     content: () => (

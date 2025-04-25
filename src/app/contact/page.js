@@ -92,7 +92,7 @@ export default function ContactPage() {
                   >
                     <Image
                       src={
-                        "https://media.licdn.com/dms/image/v2/D5603AQFPVJUEPLMMMw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726408270051?e=1740009600&v=beta&t=NmAS_P8vCMhouKkVomNEnyMfAhENv4RRJvVJw5XT9rI"
+                        "https://github.com/wilhelmlofsten/portfoliowebsite/blob/main/public/profilePicture.jpg?raw=true"
                       }
                       alt="Profile Picture"
                       width={175}

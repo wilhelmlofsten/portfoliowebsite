@@ -45,7 +45,7 @@ export default function Home() {
             <p className="text-white text-4xl sm:text-5xl">Hello!</p>
             <TypewriterEffectSmooth words={words} />
             <p className="text-white text-lg sm:text-xl text-center">
-              Junior Full-Stack Developer
+              Full-Stack Developer
             </p>
             <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 mt-4">
               <Link href="/projects" passHref>
@@ -75,22 +75,24 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center md:items-center space-y-8 md:space-y-0 md:space-x-8">
           <div className="flex-1">
             <p className="text-lg text-gray-200">
-              Currently in the final year of my Master of Science program in
-              Information Technology (IT) at Linköping University, specializing
-              in Large Scale Software Engineering. With a passion for full-stack
-              development and management, I thrive on creating seamless user
+              Currently working as a Consultant at X, with a specialization in
+              fullstack development. With a background in M.Sc. Information
+              Technology from Linköping University (LiU), specializing in
+              Large-Scale Software Engineering, I’m very passionate about
+              fullstack development, software architecture and project
+              management! Therefore, I thrive on creating seamless user
               experiences and leading teams toward impactful results. I have
               hands-on experience with technologies like React.js, Next.js,
-              Python, and have honed my leadership skills as the 2024 Project
-              Manager for LINK-Career days - Linköpings largest IT job fair.
-              Otherwise, feel free to browse my projects and contact information
-              if you would like to reach out!
+              Python, AWS and have honed my leadership skills as the 2024
+              Project Manager for LINK-Career days - Linköpings largest IT job
+              fair. Otherwise, feel free to browse my projects and contact
+              information if you would like to reach out!
             </p>
           </div>
           <div className="flex-shrink-0 flex justify-center items-center">
             <div className="w-[250px] h-[250px] bg-gray-700 rounded-full overflow-hidden border-4 border-gray-600 shadow-lg">
               <Image
-                src="https://media.licdn.com/dms/image/v2/D5603AQFPVJUEPLMMMw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726408270051?e=1740009600&v=beta&t=NmAS_P8vCMhouKkVomNEnyMfAhENv4RRJvVJw5XT9rI"
+                src="https://github.com/wilhelmlofsten/portfoliowebsite/blob/main/public/profilePicture.jpg?raw=true"
                 alt="Profile Picture"
                 width={250}
                 height={250}
