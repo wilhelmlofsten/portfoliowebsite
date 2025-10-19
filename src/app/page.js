@@ -19,13 +19,13 @@ export default function Home() {
     {
       title: "Large Scale Software Engineering",
       description:
-        "System Architecture, Design Patterns, Software Testing, Open Source Development and CI/CD.",
+        "System Architecture, Design Patterns, Design Systems, Domain Driven Design, Software Testing, Open Source Development and CI/CD.",
       icon: <FaCogs size={30} className="text-blue-500" />,
     },
     {
       title: "Programming Skills",
       description:
-        "React.js, Next.js, Python, Java, Javascript, HTML,CSS, C#, C,C++, SQL, R, Matlab and more!",
+        "React.js, Next.js, Python, Java, SpringBoot, TS, JS, Flutter, HTML, CSS, C#, C,C++, SQL, R, Matlab and more!",
       icon: <FaCode size={30} className="text-red-500" />,
     },
     {
@@ -75,7 +75,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center md:items-center space-y-8 md:space-y-0 md:space-x-8">
           <div className="flex-1">
             <p className="text-lg text-gray-200">
-              Currently working as a Consultant at X, with a specialization in
+              Currently working as an IT-Consultant at Netlight, with a specialization in
               fullstack development. With a background in M.Sc. Information
               Technology from Linköping University (LiU), specializing in
               Large-Scale Software Engineering, I’m very passionate about

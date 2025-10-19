@@ -159,15 +159,7 @@ const cards = [
     ctaLink: "https://gitlab.liu.se/willo509/tddd27_2024_stockinspirator",
     content: () => (
       <p>
-        I developed a social platform, where users can also search, display and
-        follow stocks. The project was developed for the LiU course Advanced Web
-        programming (6 ECTS -TDDD27), and recieved the highest grade. It
-        features real-time stock data, news, and detailed statistics from
-        exchanges all around the world. Users can also search for other
-        investors and explore their portfolios. The application is built with
-        the MERN stack, utilizes Firebase for authentication and MongoDB for
-        data storage. Key tools include ChartJS, D3JS, for data visualisation
-        and Tailwind for styling.
+        Stock-inspirator is a social platform that combines stock market insights with user interaction. I designed and developed both the frontend and backend systems, enabling users to access real-time stock data, news, and community-driven insights in one place. The platform integrated advanced data visualization with social features, allowing users to follow stocks, connect with fellow investors, and share ideas. My solution provided a seamless, reliable experience, improving how users engage with stock market information and fostering a more interactive investment community!
       </p>
     ),
     tags: [
@@ -251,13 +243,7 @@ const cards = [
     ctaLink: "https://gitlab.liu.se/willo509/tnm114project",
     content: () => (
       <p>
-        Me and two classmates developed SafetySam, a travel chatbot for the
-        course TNM114, leveraging Retrieval-Augmented Generation (RAG) with the
-        Llama text model to provide reliable travel advice. Integrated a
-        React.js frontend, Flask server, and Python-based backend to deliver
-        accurate, contextually relevant information from a preprocessed dataset.
-        The project showcases the practical application of modern AI
-        technologies in enhancing user-focused solutions.
+        SafetySam is an AI travel chatbot providing travelers with accurate and personalized travel advice. I developed the frontend and backend systems, enabling quick and easy access to travel safety, health, and entry requirement information. His solution effectively combined modern AI technologies with user-friendly design, significantly improving how travelers plan and prepare for their trips. The chatbot provided a reliable, intuitive experience, laying a solid foundation for further enhancements.
         <br />
         <a
           href="https://gitlab.liu.se/willo509/tnm114project/-/blob/main/TNM114_-_SafetySam.pdf?ref_type=heads"
