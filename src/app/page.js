@@ -25,7 +25,7 @@ export default function Home() {
     {
       title: "Programming Skills",
       description:
-        "React.js, Next.js, Python, Java, SpringBoot, TS, JS, Flutter, HTML, CSS, C#, C,C++, SQL, R, Matlab and more!",
+        "React.js, Next.js, Python, Encore, Java, SpringBoot, TS, JS, Node.js,Flutter, HTML, CSS, C#, C,C++, SQL, R, Matlab and more!",
       icon: <FaCode size={30} className="text-red-500" />,
     },
     {
